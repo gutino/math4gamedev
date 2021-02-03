@@ -1,0 +1,13 @@
+[gd_scene load_steps=3 format=2]
+
+[ext_resource path="res://Part 1/Radial Trigger/point.gd" type="Script" id=1]
+[ext_resource path="res://Part 1/Radial Trigger/trigger.gd" type="Script" id=2]
+
+[node name="Node" type="Node"]
+
+[node name="Point" type="Node2D" parent="."]
+script = ExtResource( 1 )
+color = Color( 0.0823529, 0.713726, 0.254902, 1 )
+
+[node name="RadialTrigger" type="Node2D" parent="."]
+script = ExtResource( 2 )
